@@ -1,0 +1,40 @@
+# Ignorer les dossiers générés automatiquement
+node_modules/
+vendor/
+
+# Ignorer les fichiers de dépendances
+composer.lock
+package-lock.json
+
+# Ignorer les fichiers de configuration temporaire
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignorer les fichiers système
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+
+# Ignorer les fichiers PHPUnit de configuration temporaire
+phpunit.xml
+
+# Exceptions : Inclure les fichiers essentiels
+!.gitignore
+!README.md
+!composer.json
+!my-connect.php
+
+# Inclure tout dans le répertoire "assets"
+!assets/**
+
+# Inclure tout dans le répertoire "includes"
+!includes/**
+
+# Inclure tout dans le répertoire "templates"
+!templates/**
+
+# Inclure tout dans le répertoire "tests"
+!tests/**
